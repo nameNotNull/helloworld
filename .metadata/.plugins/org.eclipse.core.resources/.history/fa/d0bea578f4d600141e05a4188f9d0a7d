@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 import android.widget.TextView;
-import android.view.View;;
+import android.view.view;
 public class HelloWorld extends Activity {
 
     @Override

@@ -14,11 +14,21 @@
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
 
-    <Button
+    <MediaController
+        android:id="@+id/mediaController1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textView2"
-        android:onClick="clickHandler"
-        android:text="ok" />
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="32dp" >
+
+    </MediaController>
+
+    <DatePicker
+        android:id="@+id/datePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mediaController1"
+        android:layout_alignLeft="@+id/mediaController1"
+        android:layout_marginBottom="74dp" />
 
 </RelativeLayout>

@@ -3,8 +3,7 @@ package com.example.testandroid;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
-import android.widget.TextView;
-import android.view.View;;
+
 public class HelloWorld extends Activity {
 
     @Override
@@ -21,11 +20,4 @@ public class HelloWorld extends Activity {
         return true;
     }
     
-    public void clickHandler(View source)
-    {
-    	TextView tv = (TextView) findViewById(R.id.textView2);
-    	tv.setText("hello " +new java.util.Date());
-    	
-    	
-    }
 }
