@@ -24,7 +24,7 @@ public class HelloWorld extends Activity {
     public void clickHandler(View source)
     {
     	TextView tv = (TextView) findViewById(R.id.textView2);
-    	tv.setText("now time is " +new java.util.Date());
+    	tv.setText("hello " +new java.util.Date());
     	
     	
     }

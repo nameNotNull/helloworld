@@ -19,6 +19,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/textView2"
         android:onClick="clickHandler"
-        android:text="@string/button_name" />
+        android:text="ok" />
 
 </RelativeLayout>
